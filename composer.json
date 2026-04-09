@@ -1,0 +1,27 @@
+{
+    "name": "4geo35/editable-partner-slider-block",
+    "description": "Add partner slider type",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir",
+            "email": "aweram-team@yandex.ru"
+        }
+    ],
+    "require": {
+        "4geo35/editable-blocks": "@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "GIS\\EditablePartnerSliderBlock\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GIS\\EditablePartnerSliderBlock\\EditablePartnerSliderBlockServiceProvider"
+            ]
+        }
+    }
+}
