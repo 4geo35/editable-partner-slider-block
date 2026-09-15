@@ -3,7 +3,7 @@
 return [
     "availableTypes" => [
         "partnerSlides" => [
-            "title" => env("EDITABLE_PARTNER_SLIDER_TITLE", "Слайдер"),
+            "title" => env("EDITABLE_PARTNER_SLIDER_TITLE", "Слайдер партнеров"),
             "admin" => "epsb-slides",
             "render" => "epsb::types.slides",
         ],
